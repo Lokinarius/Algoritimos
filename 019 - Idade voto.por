@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		real idade, ano, nasc
+		inteiro idade, ano, nasc
 		escreva("Em que ano você nasceu? ")
 		leia(nasc)
 		ano = 2023
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 284; 
+ * @POSICAO-CURSOR = 38; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
