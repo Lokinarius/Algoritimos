@@ -1,14 +1,15 @@
 programa
 {
+	inclua biblioteca Util --> u
+	
 	funcao inicio()
 	{
-		caracter r	
+		inteiro c = 0
 		faca{
-			escreva("Quer continuar?\n")
-			escreva("[s/n]\n")
-			leia(r)
-		}enquanto(r == 's')
-			
+			u.aguarde(200)
+			escreva(c + " ")
+			c = c + 3
+		}enquanto(c <= 30)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 104; 
+ * @POSICAO-CURSOR = 108; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
