@@ -3,8 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome[] = {"Pedro", "Gustavo", "Juliana", "Marcos", "Yara"}
-		real nota[] = {0.0, 3.5, 6.0, 8.0, 9.0}
+		cadeia nome[5]
+		real nota[5]
+
+		para(inteiro i = 0; i < 5; i++){
+			escreva("\nNome do aluno: ")
+			leia(nome[i])
+			escreva("Nota de " + nome[i] + ": ")
+			leia(nota[i])
+			escreva("=========================")
+		}
 		escreva("\n--------------------------")
 		escreva("\n      LISTA DE NOTAS      ")
 		escreva("\n--------------------------")
@@ -18,9 +26,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 297; 
+ * @POSICAO-CURSOR = 244; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {nome, 6, 9, 4}-{nota, 7, 7, 4};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
