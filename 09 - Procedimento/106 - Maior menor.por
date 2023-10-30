@@ -25,6 +25,9 @@ programa
 		escreva("Digite outro número: ")
 		inteiro n2
 		leia(n2)
+		escreva("Digite o terceiro número: ")
+        	inteiro n3
+        	leia(n3)
 		maior(n1, n2)
 	}
 }
@@ -33,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 357; 
+ * @POSICAO-CURSOR = 673; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
