@@ -3,15 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n[7]
-		para(inteiro i = 0; i < 7; i++){
+		inteiro n[15]
+		para(inteiro i = 0; i < 15; i++){
 			escreva("Digite um valor:\n")
 			leia(n[i])
 		}
-		escreva("As posições com múltiplos de 10 são as: \n")
-		para(inteiro i = 0; i < 7; i++){
+		para(inteiro i = 0; i < 15; i++){
 			se(n[i]%10 == 0){
-				escreva("posição " + i + "\n") 
+				escreva("As posições com múltiplos de 10 as: " + i) 
 			}
 		}
 	}
@@ -21,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 187; 
+ * @POSICAO-CURSOR = 246; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {n, 6, 10, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
